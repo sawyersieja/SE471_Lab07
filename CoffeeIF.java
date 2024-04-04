@@ -6,7 +6,9 @@ public interface CoffeeIF {
     public enum CoffeeType {
         Regular(1, "RegularProgram"),
         Mocha(2, "MochaProgram"),
-        Espresso(3, "EspressoProgram");
+        Latte(3, "LatteProgram"),
+        Espresso(4, "EspressoProgram"),
+        Cappuccino(5,"CappuccinoProgram");
 
         public final double price;
         public final String programLocation;
