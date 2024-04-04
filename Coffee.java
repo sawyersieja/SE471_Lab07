@@ -13,7 +13,7 @@ import java.util.ArrayList;
             addOns.add(condiment.price);
         }
         public double getPrice() {
-            var price = basePrice;
+            double price = basePrice;
             for (double addOn: addOns) {
                 price += addOn;
             }

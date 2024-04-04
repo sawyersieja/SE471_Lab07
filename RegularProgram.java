@@ -3,7 +3,7 @@
 public class RegularProgram implements ProgramIF {
     @Override
     public CoffeeIF makeCoffee(CoffeeMaker c) {
-        var coffee = new Coffee(CoffeeIF.CoffeeType.Regular);
+        Coffee coffee = new Coffee(CoffeeIF.CoffeeType.Regular);
         c.setPowerLED(0);
         c.setTypeLED(0);
         c.setGrindingTime(8);

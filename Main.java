@@ -8,7 +8,7 @@ public class Main {
         } catch (Exception e) {
             System.err.println(e);
         }
-        var mocha = c.make();
+        CoffeeIF mocha = c.make();
         mocha.addCondiment(CoffeeIF.CondimentType.Chocolate);
         c.displayPrice(mocha);
         c.sell(mocha);
@@ -18,7 +18,7 @@ public class Main {
         } catch (Exception e) {
             System.err.println(e);
         }
-        var espresso = c.make();
+        CoffeeIF espresso = c.make();
         espresso.addCondiment(CoffeeIF.CondimentType.Chocolate);
         espresso.addCondiment(CoffeeIF.CondimentType.Chocolate);
         c.displayPrice(espresso);

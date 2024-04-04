@@ -2,7 +2,7 @@
 public class MochaProgram implements ProgramIF {
     @Override
     public CoffeeIF makeCoffee(CoffeeMaker c) {
-        var coffee = new Coffee(CoffeeIF.CoffeeType.Mocha);
+        Coffee coffee = new Coffee(CoffeeIF.CoffeeType.Mocha);
         c.setPowerLED(0);
         c.setTypeLED(1);
         c.setGrindingTime(5);
